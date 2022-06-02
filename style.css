@@ -7,13 +7,13 @@ body {
     height: 100%;
     background-color: red;
     font-family: 'Roboto', sans-serif;
-    position: relative;
+
 }
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1366px;
+    width: 100%;
     height: 54px;
     background-color: #FFFFFF;
     top: 0px;
@@ -27,7 +27,6 @@ header {
     display: flex;
     align-items: center;
     background-color: green;
-    position: absolute;
 }
 nav:nth-child(1) {
     
@@ -94,14 +93,16 @@ nav:nth-child(8):hover {
 }
 
 .center-top {
-    top: 88px;
-    left: 215px;
-    background-color: blue;
+    background-color: #FFFFFF;
     width: 614px;
     height: 118px;
     border-radius: 3px;
     border: 1px solid #DBDBDB;
-    position: absolute;
+    margin-top: 88px;
+    margin-left: 215px;
+    position: relative;
+    overflow: hidden;
+    
 }
 .background1 {
     width: 66px;
@@ -126,4 +127,117 @@ nav:nth-child(8):hover {
     top: 18px;
     position: absolute;
     border-radius: 33px;
+}
+.logo2 {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 103px;
+    top: 23px;
+    border-radius: 28px
+}
+.background3 {
+    width: 66px;
+    height: 66px;
+    left: 178px;
+    top: 18px;
+    position: absolute;
+    border-radius: 33px;
+}
+.logo3 {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 183px;
+    top: 23px;
+    border-radius: 28px
+}
+.background4 {
+    width: 66px;
+    height: 66px;
+    left: 258px;
+    top: 18px;
+    position: absolute;
+    border-radius: 33px;
+}
+.logo4 {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 263px;
+    top: 23px;
+    border-radius: 28px
+}
+.background5 {
+    width: 66px;
+    height: 66px;
+    left: 338px;
+    top: 18px;
+    position: absolute;
+    border-radius: 33px;
+}
+.logo5 {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 343px;
+    top: 23px;
+    border-radius: 28px
+}
+.background6 {
+    width: 66px;
+    height: 66px;
+    left: 418px;
+    top: 18px;
+    position: absolute;
+    border-radius: 33px;
+}
+.logo6 {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 423px;
+    top: 23px;
+    border-radius: 28px
+}
+.background7 {
+    width: 66px;
+    height: 66px;
+    left: 498px;
+    top: 18px;
+    position: absolute;
+    border-radius: 33px;
+}
+.logo7 {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 503px;
+    top: 23px;
+    border-radius: 28px
+}
+.background8 {
+    width: 66px;
+    height: 66px;
+    left: 578px;
+    top: 18px;
+    position: absolute;
+    border-radius: 33px;
+}
+.logo8 {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 583px;
+    top: 23px;
+    border-radius: 28px
+}
+.arrow {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 43px;
+    left: 576px;
+    filter: drop-shadow(0px 4px 4px rgba(238, 234, 234, 0.25));
+    color: #FFFFFF;
 }
