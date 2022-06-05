@@ -3,12 +3,11 @@
     box-sizing: border-box;
 }
 body {
-    width: 1366px;
-    height: 2000px;
+    
     background: #FAFAFA;
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
+    
+
 
 }
 header {
@@ -96,11 +95,15 @@ nav:nth-child(8):hover {
 }
 main {
     display: flex;
+    width: 935px;
+    margin:88px auto 0px auto;
+    
 }
 .center {
     display: flex;
     flex-direction: column;
-    width: 935px;
+    width: 614px;
+    
     
 }
 .center-top {
@@ -109,8 +112,6 @@ main {
     height: 118px;
     border-radius: 3px;
     border: 1px solid #DBDBDB;
-    margin-top: 88px;
-    margin-left: 215px;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -122,7 +123,6 @@ main {
     width: 614px;
     height: 100%;
     margin-top: 24px;
-    margin-left: 215px;
     background-color: #fafafa;
     
 
@@ -353,27 +353,24 @@ main {
 .sidebar {
     width: 293px;
     height: 452px;
-    margin-top: 88px;
-    margin-right: 220px;
     position: relative;
     display: flex;
+    padding-left: 29px;
 }
 .image7 {
     width: 56px;
     height: 56px;
     border-radius: 28px;
     top: 23px;
-    left: 0px;
     position: absolute;
 }
 .image8 {
     position: absolute;
-    left: 74px;
+    left: 103px;
     top: 40px;
 }
 .image9 {
     position: absolute;
-    left: 0px;
     top: 93px;
 }
 .image10 {
@@ -383,17 +380,16 @@ main {
 }
 .image11 {
     position: absolute;
-    left: 0px;
     top: 120px;
 }
 .image12 {
     position: absolute;
-    left: 43px;
+    left: 72px;
     top: 120px;
 }
 .image13 {
     position: absolute;
-    left: 43px;
+    left: 72px;
     top: 140px;
 }
 .image14 {
@@ -403,17 +399,16 @@ main {
 }
 .image15 {
     position: absolute;
-    left: 0px;
     top: 170px;
 }
 .image16 {
     position: absolute;
-    left: 43px;
+    left: 72px;
     top: 170px;
 }
 .image17 {
     position: absolute;
-    left: 43px;
+    left: 72px;
     top: 190px;
 }
 .image18 {
@@ -423,17 +418,16 @@ main {
 }
 .image19 {
     position: absolute;
-    left: 0px;
     top: 220px;
 }
 .image20 {
     position: absolute;
-    left: 43px;
+    left: 72px;
     top: 220px;
 }
 .image21 {
     position: absolute;
-    left: 43px;
+    left: 72px;
     top: 240px;
 }
 .image22 {
@@ -443,17 +437,16 @@ main {
 }
 .image23 {
     position: absolute;
-    left: 0px;
     top: 270px;
 }
 .image24 {
     position: absolute;
-    left: 43px;
+    left: 72px;
     top: 270px;
 }
 .image25 {
     position: absolute;
-    left: 43px;
+    left: 72px;
     top: 290px;
 }
 .image26 {
@@ -463,17 +456,16 @@ main {
 }
 .image27 {
     position: absolute;
-    left: 0px;
     top: 320px;
 }
 .image28 {
     position: absolute;
-    left: 43px;
+    left: 72px;
     top: 320px;
 }
 .image29 {
     position: absolute;
-    left: 43px;
+    left: 72px;
     top: 340px;
 }
 
@@ -484,12 +476,10 @@ main {
 }
 .image31 {
     position: absolute;
-    left: 0px;
     top: 380px;
 }
 .image32 {
     position: absolute;
-    left: 0px;
     top: 435px;
 }
 footer {
@@ -586,22 +576,7 @@ footer {
         border: 1px solid #dbdbdb;
         justify-content: space-between;
         align-items: center;
+        z-index: 1;
     }
-    .icon5 {
-        width: 22px;
-        height: 22px;     
-    }
-    .firstrelative {
-        width: 100%;
-    }
-    .secondrelative {
-        width: 100%;
-    }
-    .thirdrelative {
-        width: 100%;
-    }
-    .image1 {
-        width: 100%;
-    }
-    
+
 }
