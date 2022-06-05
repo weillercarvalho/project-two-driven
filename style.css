@@ -591,4 +591,17 @@ footer {
         width: 22px;
         height: 22px;     
     }
+    .firstrelative {
+        width: 100%;
+    }
+    .secondrelative {
+        width: 100%;
+    }
+    .thirdrelative {
+        width: 100%;
+    }
+    .image1 {
+        width: 100%;
+    }
+    
 }
