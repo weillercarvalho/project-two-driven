@@ -102,9 +102,7 @@ main {
 .center {
     display: flex;
     flex-direction: column;
-    width: 614px;
-    
-    
+    width: 614px;    
 }
 .center-top {
     background-color: #FFFFFF;
@@ -124,8 +122,6 @@ main {
     height: 100%;
     margin-top: 24px;
     background-color: #fafafa;
-    
-
 }
 .background1 {
     width: 66px;
@@ -351,12 +347,17 @@ main {
     margin-top: 60px;
 }
 .sidebar {
+    display: flex;
+}
+.sidebar2 {
     width: 293px;
     height: 452px;
     position: relative;
+    position: fixed;
     display: flex;
     padding-left: 29px;
 }
+
 .image7 {
     width: 56px;
     height: 56px;
@@ -496,6 +497,7 @@ footer {
         width: 100%;
         justify-content: center;
         align-items: center;
+        height: 100%;   
     }
     .top {
         width: 100%;
@@ -522,7 +524,6 @@ footer {
         width: 100%;
         display: flex;
         align-items: center;
-
     }
     .center {
         width: 100%;
@@ -556,7 +557,6 @@ footer {
         width: 100%;
         background-color: #fafafa;
         border: none;
-        margin-top: 60px;
     }
     .center-bottom {
         width: 100%;
