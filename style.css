@@ -490,6 +490,9 @@ footer {
     body {
         width: 100%;
     }
+    main {
+        width: 100%;
+    }
     header {
         width: 100%;
     }
@@ -520,6 +523,9 @@ footer {
     body {
         width: 100%;
     }
+    main {
+        width: 100%;
+    }
     header {
         width: 100%;
         display: flex;
@@ -527,7 +533,9 @@ footer {
     }
     .center {
         width: 100%;
-        align-items: flex-end;
+        align-items: center;
+        display: flex;
+        justify-content: center;
 
     }
     .sidebar {
